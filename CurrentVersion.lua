@@ -1,1 +1,1 @@
-local LatestVersion = 1.3
+LatestVersion.LatestVersion = 1.3
