@@ -1,7 +1,5 @@
-local Test.LatestVersion = "1.3"
-
 function Test.CheckVersion(Version)
-    if Version ~= CurrentVersion then
+    if Version ~= "1.3" then
         print("WRONG ONE")
     end
 end)
