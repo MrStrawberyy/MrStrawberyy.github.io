@@ -1,4 +1,7 @@
-pcall(function()
-    local CurrentVersion = "1.3"
-    print(SETUP)
+local Test.LatestVersion = "1.3"
+
+function Test.CheckVersion(Version)
+    if Version ~= CurrentVersion then
+        print("WRONG ONE")
+    end
 end)
