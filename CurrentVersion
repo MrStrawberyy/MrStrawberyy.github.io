@@ -1,5 +1,5 @@
-CurrentVersion = "1.3"
-Verisons = {
+local CurrentVersion = "1.3"
+local Verisons = {
     "1.2";
     "1.1";
     "1.0";
