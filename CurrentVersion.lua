@@ -1,14 +1,14 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Bestieee", "Serpent") --Creates the UI
+local Window = Library.CreateLib("BestEEE", "Serpent") --Creates the UI
 
 --VERSION
 local CurrentVersion = 1.2
 
 function TestVersion(Version)
-   if CurrentVersion ~= 1 then
+   if CurrentVersion ==  then
        game.StarterGui:SetCore("SendNotification", {
           Title = "Version: "..CurrentVersion;
-          Text = "You are Running the Newest Version of Bestieee!";
+          Text = "You are Running the Newest Version of BestEEE!";
           Duration = 5
        })
    end
