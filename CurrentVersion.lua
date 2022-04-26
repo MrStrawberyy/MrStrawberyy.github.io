@@ -1,1 +1,1 @@
-print("AUH")
+local LatestVersion = 1.3
